@@ -16,34 +16,63 @@ For now, the test suite only works in Chrome! Please read the README below in th
         <style>
             div {
                 display:table;
+                margin: auto;
             }
             img {
                 max-width: 100%;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-
             }
+
+            body {
+                background-color: rgb(226, 226, 226);
+                padding: 30px;
+                border: 15px solid white;
+                margin: auto;                
+            }
+
+            .principal-title-container {
+                margin: auto;
+            }
+
+            .principal-title {
+                font-size: 80px;
+            }
+
+            #img-div {
+                display:table;
+                margin: auto;
+                background-color: white;
+                display: block;
+                padding: 30px;
+            }
+
         </style>
     </head>
 
+
+
     <body id="main">
 
-        <body id="main">
-            <div id="img-div">
-                <img id="image">
-                <figcaption id="img-caption">Caption</figcaption>
-            </div>
+        <div class='principal-title-container'>
+            <h1 class='principal-title'>Michael Jackson</h1>
 
-            <div id="tribute-info">   
-              <h1>Michael Jackson's History</h1>
+        </div>
 
-              <a href="https://pt.wikipedia.org/wiki/Michael_Jackson" id = "tribute-link" target="_blank">
-            </div> 
-        </body>  
+        <div id="img-div">
+            <img id="image" src='https://jpimg.com.br/uploads/2019/06/michael-jackson-1-1024x674.jpg'>
+            <figcaption id="img-caption">Caption</figcaption>
+        </div>
+
+        <div id="tribute-info">   
+            <h1>Michael Jackson's History</h1>    
+
+            <a href="https://pt.wikipedia.org/wiki/Michael_Jackson" id = "tribute-link" target="_blank">
+        </div> 
+    </body>  
 
 
-    </body>
 
 
 </html>
